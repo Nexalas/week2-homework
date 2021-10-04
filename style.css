@@ -1,11 +1,52 @@
 
+body {
+  margin: 0;
+  text-align: center;
+  
+}
 
+section {
+
+  display: flex;
+
+  flex-direction: column;
+
+
+  align-items: center;
+
+}
+
+#fancy {
+   
+    background-image: linear-gradient(to right, rgba(214, 19, 204, 0), rgb(99, 28, 230));
+  }
+
+
+#leftButton {
+  height: 30px;
+  width: 30px;
+
+align-self: flex-end;
+position: relative;
+left: 320px;
+
+
+}
+#rightButton {
+  height: 30px;
+  width: 30px;
+align-self: flex-end;
+position: relative;
+right: 320px;
+
+}
 
 
 .art1 {
     padding: 10px;
-    margin-top: 20px;
-    
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(70, 179, 70);
     height: 400px;
     width: 400px;
     
@@ -13,10 +54,19 @@
 }
 
 .art2 {
-    background-color: black;
+    
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 70px;
+    
+    
+}
+#jscar {
+  margin-bottom: 20px; margin-top: 20px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: azure;
+  color: rgb(218, 70, 11);
 }
 
 #container {
@@ -24,7 +74,24 @@
     width: 320px;
     margin: 100px auto 0 auto;
     perspective: 1000px;
+    
   }
+
+  #container1 {
+    height: 40em;
+    width: 40em;
+    background-color: limegreen;
+    
+}
+
+#imageHolder {
+height: 100%;
+width: 100%;
+border-style: outset;
+border-width: 10px;
+border-color: goldenrod;
+
+}
   
   .carousel {
     position: absolute;
@@ -43,6 +110,7 @@
     background-size: cover;
     box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
     display: flex;
+    
   }
   
   span {
